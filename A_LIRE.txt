@@ -1,0 +1,17 @@
+Projet : Site d'e-commerce de vente d'albums.
+
+Technologies utilisées : HTML, CSS, PHP, SQL, Javascript, AJAX
+Framework utilisé : Bootstrap
+
+Installation du site : 
+	Executer le script SQL présent dans le dossier BALM pour MySql.
+	Configuration du serveur SMTP (Pour le formulaire de contact):
+		Utilisation de Wamp Server : Modification du php.ini :
+			Ligne 994 :
+				SMTP pour Orange : SMTP = smtp.orange.fr
+				SMTP pour Bouygues : SMTP = smtp.bbox.fr
+				SMTP pour SFR : SMTP = smtp.sfr.fr
+			Ligne 996 :
+				Port : smtp_port = 25
+			Ligne 1000 : 
+				Email : sendmail_from = email_de_reçu_de_demande_de_contact
